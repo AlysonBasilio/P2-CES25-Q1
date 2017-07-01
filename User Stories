@@ -1,0 +1,14 @@
+A companhia vende suprimentos para navegação.
+No site deve vender apenas livros.
+"After some months of successful on-line sales, we'll offer the rest of our products on the site"
+"Site needs to be live in thirty days"
+Os clientes são marinheiros.
+"typical bookstore/eCommerce site"
+	-Me as a costumer want to be able to search for books in a variety of ways.
+	-Me as a costumer want to be able to maintain lists of books that I'll buy later.
+	-Me as a costumer want to rate and review books that I bought.
+	-Me as a costumer want to check on the status of an order.
+Classes de marinheiros:
+	-Hard Core Sailor
+	-Novice Sailor
+	-Non-Sailing Gift Buyer
