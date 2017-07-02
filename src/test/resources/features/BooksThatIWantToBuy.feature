@@ -17,19 +17,13 @@
 ## (Comments)
 
 #Sample Feature Definition Template
-@PesquisaItem
-Feature: Pesquisa de um Item no Site
+@BooksThatIWantToBuy
+Feature: Books that I want to buy
 
 @tag1
-Scenario: Cliente procura por um item utilizando uma palavra-chave.
-Given a sort of books
-			| name    					| description | qtd | value |
-			| A Casa  					| terror 			| 2		| 10.0  |
-			| A Torre 					| drama 			| 3 	| 20.0  |
-			| A Casa na Colina 	| comedia 		| 2 	| 30.0  |
-			| A Cabana					| terror 			| 4 	| 25.0  |
-When a costumer searches for a book with Casa at it name
-Then 2 books must return as a result
-	And book1 must have the name A Casa
-	And book2 must have the name A Casa na Colina
-
+Scenario: Costumer adds book to your list
+Given a book named A Casa with description terror qtd 2	and value 10.0
+And a costumer named Alyson, a Non-Sailing Gift Buyer
+When this costumer decided to put this livro in his list
+Then 1 books must return as a result to this costumer's list
+	And book3 must have the name A Casa
